@@ -1,28 +1,28 @@
 #!/bin/sh -e
 # compiles and installs batman-adv and batctl (version 2018.1)
-# create file: 'sudo nano batmaninstall' and copy this text
-# then run: 'sudo sh ./batmaninstall'
+# create file: 'nano batmaninstall' and copy this text
+# then run: 'sh ./batmaninstall'
 # reboot after install
 
-apt-get update
-apt-get install git raspberrypi-kernel-headers build-essential dkms -y
+sudo apt-get update
+sudo apt-get install git raspberrypi-kernel-headers build-essential dkms -y
 cd /home/pi
 wget https://downloads.open-mesh.org/batman/stable/sources/batman-adv/batman-adv-2018.1.tar.gz
 tar -xzvf batman-adv-2018.1.tar.gz
 cd batman-adv-2018.1
-make
-make install
+sudo make
+sudo make install
 
 cd /home/pi
 wget https://downloads.open-mesh.org/batman/stable/sources/batctl/batctl-2018.1.tar.gz
 tar -xzvf batctl-2018.1.tar.gz
 cd batctl-2018.1/
-make
-make install
+sudo make
+sudo make install
 
 cd /home/pi
-rm -R batctl-2018.1
-rm -R batman-adv-2018.1
+sudo rm -R batctl-2018.1
+sudo rm -R batman-adv-2018.1
 rm batctl-2018.1.tar.gz
 rm batman-adv-2018.1.tar.gz
 exit 0
