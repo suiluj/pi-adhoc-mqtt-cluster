@@ -3,8 +3,10 @@ Using batman-adv to connect several raspberrypi to a mesh network and creating a
 
 ## Overview
 
-This repo is currently in the development.
-I am writing some tutorials for different parts of the pi-adhoc-mqtt-cluster.
+This repo is currently in the development.  
+It already explains how to create the batman mesh network and install vernemq on a raspberrypi.
+Currently I am adding some tutorials for different parts of the pi-adhoc-mqtt-cluster.  
+Feel free to comment.
 
 ## Used hardware and software
 
@@ -18,3 +20,9 @@ I am writing some tutorials for different parts of the pi-adhoc-mqtt-cluster.
     * mqtt broker cluster node with vernemq
     
 * OS: Raspbian Stretch Lite (2018-04-18-raspbian-stretch-lite.img)
+
+## Links to different software parts:
+
+[Install and configure batman-adv and batctl](https://github.com/suiluj/pi-adhoc-mqtt-cluster/wiki/Install-and-configure-batman-adv-and-batctl)
+
+[Install and configure VerneMQ](https://github.com/suiluj/pi-adhoc-mqtt-cluster/wiki/Install-and-configure-Vernemq)
