@@ -3,7 +3,7 @@ Using batman-adv to connect several raspberrypi to a mesh network and creating a
 
 ## Overview
 
-Disclaimer: This repo is in the development.
+This repo is currently in the development.
 I am writing some tutorials for different parts of the pi-adhoc-mqtt-cluster.
 
 ## Used hardware and software
