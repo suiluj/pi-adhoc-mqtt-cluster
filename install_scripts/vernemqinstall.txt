@@ -1,0 +1,32 @@
+#!/bin/sh -e
+# compiles and installs batman-adv and batctl (version 2018.1)
+# create file: 'nano vernemqinstall' and copy this text
+# then run: 'sh ./vernemqinstall'
+# important not to sudo then vernemq without sudo possible
+# reboot after install
+
+
+sudo apt-get update
+sudo apt-get install wget -y
+sudo apt-get install libssl-dev -y
+sudo apt-get install libssh-dev -y
+sudo apt-get install ncurses-dev -y
+
+wget http://erlang.org/download/otp_src_20.2.tar.gz
+
+tar -xzvf otp_src_20.2.tar.gz
+cd otp_src_20.2/
+./configure
+
+make -j 4 
+
+sudo make install
+cd /home/pi
+rm otp_src_20.2.tar.gz
+sudo rm -R otp_src_20.2/
+
+git clone -b fix-rpi32-build https://github.com/larshesel/vernemq.git
+cd vernemq/
+make rpi32
+
+exit 0
