@@ -12,6 +12,7 @@ sudo apt-get install libssl-dev -y
 sudo apt-get install libssh-dev -y
 sudo apt-get install ncurses-dev -y
 
+cd /home/pi
 wget http://erlang.org/download/otp_src_20.2.tar.gz
 
 tar -xzvf otp_src_20.2.tar.gz
