@@ -21,7 +21,7 @@ Feel free to comment.
     
 * OS: Raspbian Stretch Lite (2018-04-18-raspbian-stretch-lite.img)
 
-## Links to different software parts:
+## Links to the tutorials:
 
 [Install and configure batman-adv and batctl](https://github.com/suiluj/pi-adhoc-mqtt-cluster/wiki/Install-and-configure-batman-adv-and-batctl)
 
