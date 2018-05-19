@@ -1,0 +1,7 @@
+#!/bin/sh -e
+# compiles and installs batman-adv and batctl (version 2018.1)
+# create file: 'nano batmaninstall' and copy this text
+# then run: 'sh ./batmaninstall'
+# reboot after install
+
+echo "test successful"
