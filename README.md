@@ -12,9 +12,10 @@ Feel free to comment.
 
 * Raspberry Pi 3 B+
     * batman mesh node (adhoc network wlan0)
-    * bridge with lan cable eth0 for internet sharing
+    * bridge with lan cable eth0 for combining mesh and different network
+    * internet gateway with dhcp server for sharing eth0 internet with mesh nodes
     * mqtt broker cluster node with vernemq
-    * grafana/prometheus/influxdb for monitoring mqtt cluster and network
+    * grafana/prometheus/influxdb for monitoring mqtt cluster and network (not written yet)
 * several Raspberry Pi Zero W (batman mesh node)
     * batman mesh node (adhoc network wlan0)
     * mqtt broker cluster node with vernemq
