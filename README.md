@@ -24,6 +24,7 @@ Feel free to comment.
 
 ## Links to the tutorials:
 
-[Install and configure batman-adv and batctl](https://github.com/suiluj/pi-adhoc-mqtt-cluster/wiki/Install-and-configure-batman-adv-and-batctl)
+Links to different parts:
 
-[Install and configure VerneMQ](https://github.com/suiluj/pi-adhoc-mqtt-cluster/wiki/Install-and-configure-Vernemq)
+* [Batman-adv and Batctl](https://github.com/suiluj/pi-adhoc-mqtt-cluster/wiki/Batman-Adv-and-Batctl)
+* [VerneMQ](https://github.com/suiluj/pi-adhoc-mqtt-cluster/wiki/VerneMQ)
