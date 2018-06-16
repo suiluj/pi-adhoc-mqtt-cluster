@@ -5,7 +5,4 @@ test $VERSION_ID = "8" && echo "deb https://repos.influxdata.com/debian jessie s
 test $VERSION_ID = "9" && echo "deb https://repos.influxdata.com/debian stretch stable" | sudo tee /etc/apt/sources.list.d/influxdb.list
 
 sudo apt-get update && sudo apt-get install -y influxdb
-sudo service influxdb start
-
-sudo apt-get update && sudo apt-get install -y influxdb
 sudo systemctl start influxdb
