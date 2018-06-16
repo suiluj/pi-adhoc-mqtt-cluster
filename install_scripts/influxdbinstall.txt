@@ -7,3 +7,10 @@ sudo apt install -y influxdb chronograf
 
 sudo systemctl enable influxdb
 sudo systemctl start influxdb
+
+sudo apt-get install -y python3-pip
+
+pip3 install influxdb
+pip3 install --upgrade influxdb
+
+wget -qO-  https://raw.githubusercontent.com/suiluj/pi-adhoc-mqtt-cluster/master/configuration_scripts/influxdb_create_mqtt_database.py | python3 -
