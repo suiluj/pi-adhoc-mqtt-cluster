@@ -1,0 +1,69 @@
+<html>
+	<head>
+		<title>Truth Table Generator</title>
+		<script type="text/javascript" src="js/ast.js"></script>
+		<script type="text/javascript" src="js/core.js"></script>
+		<script type="text/javascript" src="js/parser.js"></script>
+		<script type="text/javascript" src="js/renderer.js"></script>
+		<script type="text/javascript" src="js/scanner.js"></script>
+		<script type="text/javascript" src="js/truth-table.js"></script>
+		<script type="text/javascript" src="js/customvarsorder.js"></script>
+		<script type="text/javascript" src="js/extragates.js"></script>
+		<script type="text/javascript" src="js/clipboard.min.js"></script>
+		
+		<link href='https://fonts.googleapis.com/css?family=Ubuntu+Mono' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" type="text/css" href="css/style.css" />
+	</head>
+	<body>
+		<div class="content">
+			<h1 class="title">
+				Truth Table Generator
+			</h1>
+			<p class="overview">
+				This tool generates truth tables for propositional logic formulas.
+				You can enter logical operators in several different formats. For example, the
+				propositional formula <nobr>p &and; q &rarr; &not;r</nobr> could be written as
+				<nobr><tt>p /\ q -&gt; ~r</tt></nobr>,
+				as <nobr><tt>p and q =&gt; not r</tt></nobr>, or as <nobr><tt>p &amp;&amp; q -&gt; !r</tt></nobr>.
+				The connectives &#8868; and &#8869; can be entered as <tt>T</tt> and <tt>F</tt>.
+			</p>
+			<hr>
+			<h2 class="title">
+				Optional stuff
+			</h2>
+			<p align="left">
+				Enter <b>all</b> variables comma separated in your favourite order<br>
+				<input id="customvarsorder" labeltype="text" oninput="go();" placeholder="e.g.: q,r,s or q,s,r"/>
+			</p>
+			<br>
+			<p align="left">
+					Create xor, xnor or nand gates to copy into the formular field:<br>
+					<input id="extraone" labeltype="text" oninput="calculate_extra_gates();" placeholder="e.g.: a"/>
+					<select id="gatetype" class="extragateclass" onchange="calculate_extra_gates();">
+							<option value="xor" selected>xor</option>
+							<option value="xnor">xnor</option>
+							<option value="nand">nand</option>
+						  </select>
+					<input id="extratwo" labeltype="text" oninput="calculate_extra_gates();" placeholder="e.g.: b"/>
+					<b>=</b>
+	
+					<input id="extraresponse" type="text" placeholder="Enter something before" value="">
+					<button class="btn extragateclass" data-clipboard-action="copy" data-clipboard-target="#extraresponse">Copy</button>
+					<script>
+						var clipboard = new ClipboardJS('.btn');
+					</script>
+				</p>
+			<hr>
+			<h2 class="title">
+				Enter a formula here:
+			</h2>
+
+			<p align="left">	
+				<input id="expressionInput" type="text" oninput="go();" placeholder="Enter a formula, e.g.: s or (q and !r)"/>
+			</p>
+			<div id="table-target">
+				<!-- Generated truth tables go here -->
+			</div>
+		</div>
+	</body>
+</html>

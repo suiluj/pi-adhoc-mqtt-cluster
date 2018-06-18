@@ -1,0 +1,147 @@
+body {
+	text-align: center;
+	font-family: sans-serif;
+	color: #444;
+}
+
+table.truthTable {
+    font-family: helvetica;
+    color: #555;
+    border-collapse: collapse;
+    font-size: 14pt;
+    text-align: center;
+}
+
+table.truthTable tr td:last-child,
+table.truthTable tr th:last-child {
+  border-right: 0;
+}
+
+table.truthTable th {
+	font-weight: bold;
+	padding: 5px 10px 5px 10px;
+}
+
+table.truthTable td,
+table.truthTable th {
+	border-right: 1px solid rgb(210, 210, 221);
+	padding: 5px 10px 5px 10px;
+}
+table.truthTable td {
+	font-weight: 100;
+}
+table.truthTable td:last-child {
+	font-weight: 600;
+}
+table.truthTable tr,
+table.truthTable th {
+	border-bottom: 1px solid rgb(171, 170, 187);
+}
+table.truthTable tr:last-child {
+	border-bottom: 0px;
+}
+
+div.truth-table-holder {
+	border: 1px solid #f1f1f7;
+	background: #fafafa;
+	padding: 10px 18px;
+	display: inline-block;
+	margin: 20px;
+}
+
+input#extraone {
+	font-family: monospace;
+	font-size: 20px;
+	width: 20%;
+	margin: 20px 0 0 0;
+}
+
+input#extratwo {
+	font-family: monospace;
+	font-size: 20px;
+	width: 20%;
+	margin: 20px 0 0 0;
+}
+
+input#extraresponse {
+	font-family: monospace;
+	font-size: 20px;
+	width: 30%;
+	margin: 20px 0 0 0;
+}
+
+.extragateclass {
+	font-family: monospace;
+	font-size: 20px;
+	margin: 20px 0 0 0;
+}
+
+input#customvarsorder {
+	font-family: monospace;
+	font-size: 20px;
+	width: 90%;
+	margin: 20px 0 0 0;
+}
+
+input#expressionInput {
+	font-family: monospace;
+	font-size: 20px;
+	width: 90%;
+	margin: 20px 0 0 0;
+}
+
+span.syntax-error {
+	color: #ff8080;
+	font-weight: bold;
+	font-family: monospace;
+	font-size: 20pt;
+}
+
+p {
+	margin-left: 5%;
+}
+
+span.syntax-okay {
+	color: #202020;
+	font-family: monospace;
+	font-size: 20pt;
+}
+
+div.content {
+	border-radius: 10px;
+	display: inline-block;
+	border: 5px solid #8080c0;
+	margin-left: auto;
+	margin-right: auto;
+	vertical-align: top;
+	min-width: 800px;
+}
+
+.title {
+	color: #4040a0;
+}
+
+p.overview {
+    width: 600px;
+    text-align: justify;
+    font-size: 13pt;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0px;
+}
+
+table.connectives-help {
+	display: inline-block;
+	text-align: center;
+	font-size: 150%;
+	font-family: 'Ubuntu Mono';
+	margin: 10px 0 0 0;
+}
+
+tt {
+	font-family: 'Ubuntu Mono';
+}
+
+table.connectives-help td {
+	width: 75px;
+}
