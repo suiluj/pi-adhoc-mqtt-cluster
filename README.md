@@ -33,3 +33,4 @@ Links to different parts:
 * [InfluxDB](https://github.com/suiluj/pi-adhoc-mqtt-cluster/wiki/InfluxDB)
 * [VerneMQ](https://github.com/suiluj/pi-adhoc-mqtt-cluster/wiki/VerneMQ)
 * [Grafana](https://github.com/suiluj/pi-adhoc-mqtt-cluster/wiki/Grafana)
+* [Node-RED install on raspberrypi for testing](https://nodered.org/docs/hardware/raspberrypi)
