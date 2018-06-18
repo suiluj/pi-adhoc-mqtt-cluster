@@ -27,4 +27,8 @@ Feel free to comment.
 Links to different parts:
 
 * [Batman-adv and Batctl](https://github.com/suiluj/pi-adhoc-mqtt-cluster/wiki/Batman-Adv-and-Batctl)
+* [USB Dongle - Wifi Client+Hotspot](https://github.com/suiluj/pi-adhoc-mqtt-cluster/wiki/USB-Dongle-Wifi-Configuration)
+* [Prometheus](https://github.com/suiluj/pi-adhoc-mqtt-cluster/wiki/Prometheus)
+* [InfluxDB](https://github.com/suiluj/pi-adhoc-mqtt-cluster/wiki/InfluxDB)
 * [VerneMQ](https://github.com/suiluj/pi-adhoc-mqtt-cluster/wiki/VerneMQ)
+* [Grafana](https://github.com/suiluj/pi-adhoc-mqtt-cluster/wiki/Grafana)
