@@ -16,6 +16,7 @@ Feel free to comment.
     * internet gateway with dhcp server for sharing eth0 internet with mesh nodes
     * mqtt broker cluster node with vernemq
     * grafana/prometheus/influxdb for monitoring mqtt cluster and network (not written yet)
+    * Optional: USB Wifi Dongle for wifi client+hotspot configuration and internet sharing
 * several Raspberry Pi Zero W (batman mesh node)
     * batman mesh node (adhoc network wlan0)
     * mqtt broker cluster node with vernemq
