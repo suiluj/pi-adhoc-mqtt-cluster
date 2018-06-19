@@ -23,6 +23,10 @@ Feel free to comment.
     
 * OS: Raspbian Stretch Lite (2018-04-18-raspbian-stretch-lite.img)
 
+## PiPages for shortcuts to the different GUIs (when already installed):
+
+[**PiPages (Link)**](https://suiluj.github.io/pi-adhoc-mqtt-cluster/pipages/)
+
 ## Links to the tutorials:
 
 Links to different parts:
