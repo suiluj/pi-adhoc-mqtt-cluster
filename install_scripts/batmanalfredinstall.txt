@@ -4,6 +4,9 @@
 # then run: 'sh ./batmanalfredinstall'
 # reboot after install
 
+sudo apt-get update
+sudo apt install libcab-dev -y
+
 cd /home/pi
 wget https://downloads.open-mesh.org/batman/stable/sources/alfred/alfred-2018.1.tar.gz
 tar -xzvf alfred-2018.1.tar.gz
