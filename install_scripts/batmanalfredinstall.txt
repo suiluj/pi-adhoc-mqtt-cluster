@@ -5,7 +5,7 @@
 # reboot after install
 
 sudo apt-get update
-sudo apt-get install libpcap-dev -y
+sudo apt install libgps-dev -y
 
 cd /home/pi
 wget https://downloads.open-mesh.org/batman/stable/sources/alfred/alfred-2018.1.tar.gz
