@@ -6,7 +6,7 @@
 
 sudo apt-get update
 sudo apt-get install git raspberrypi-kernel-headers build-essential dkms -y
-sudo apt-get install -f -y libcap-dev libgps-dev
+sudo apt install -y libcap-dev libgps-dev
 
 # install batman-adv
 cd /home/pi
