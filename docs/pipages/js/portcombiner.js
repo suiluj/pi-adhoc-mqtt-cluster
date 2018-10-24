@@ -9,6 +9,7 @@
  *
  */
 
+var urlvernemq = "";
 var urlgrafana = "";
 var urlchronograf = "";
 var urlnodered = "";
@@ -50,6 +51,7 @@ function hostpresetschanged() {
 function go() {
 	var host = document.getElementById("host").value;
 
+	urlvernemq = "http://" + host + ":" + document.getElementById("portvernemq").value;
 	urlgrafana = "http://" + host + ":" + document.getElementById("portgrafana").value;
 	urlchronograf = "http://" + host + ":" + document.getElementById("portchronograf").value;
 	urlnodered = "http://" + host + ":" + document.getElementById("portnodered").value;
