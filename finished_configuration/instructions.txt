@@ -1,0 +1,35 @@
+scripts in /home/pi/vscode_scripts
+
+on rpi3:
+
+start .app.py (Dash) in dash subfolder
+
+in mqtt subfolder
+start mqttdatatoinflux
+and
+start mqttinfoscraper
+
+
+gyro sensor on zpi1:
+
+in mqtt subfolder
+start
+testsensor
+
+
+temperature und phototransistor on zpi2:
+
+in mqtt subfolder:
+
+start mqttmcp3008 
+
+
+hints:
+
+check if vernemq mqtt broker is already started on all rpi before starting the mqtt scripts
+
+just use the following command on 3pi to check the mqtt broker cluster status:
+
+vmq-admin cluster show
+
+if the rpi zeros do not have an active broker no mqtt messages will be received of course

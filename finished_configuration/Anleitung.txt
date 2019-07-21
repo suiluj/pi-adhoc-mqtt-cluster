@@ -1,0 +1,35 @@
+scripte in /home/pi/vscode_scripts
+
+Auf rpi3:
+
+starte .app.py (Dash) im dash unterordner
+
+im mqtt unterordner
+starte mqttdatatoinflux
+und
+starte mqttinfoscraper
+
+
+lagesensor auf zpi1:
+
+im mqtt unterordner
+starte
+testsensor
+
+
+temperatur und phototransistor auf zpi2:
+
+im mqtt unterordner:
+
+starte mqttmcp3008 
+
+
+hinweise:
+
+vor script start kontrollieren ob vernemq schon auf den zeros gestartet ist
+
+einfach auf 3pi folgendes kommando nutzen um zu schauen ob cluster online:
+
+vmq-admin cluster show
+
+wenn die zero nicht ihre mqtt broker gestartet haben kann natürlich nichts ankommen
