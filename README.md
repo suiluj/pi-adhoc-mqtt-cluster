@@ -4,7 +4,13 @@ Using batman-adv to connect several raspberrypi to a mesh network and creating a
 ## Overview
 
 This repo is currently in development and things get added time after time.   
-Feel free to comment.  
+Feel free to comment.
+
+**Last Update:**
+
+* This repo is not updated anymore. It is possible that parts of the batman installation have to be changed because of newer raspbian images and changed drivers.
+* The latest configuration (mqtt scripts and Dash visualizations) for multiple raspberry pis can be found in the folder `finished_configuration`. This includes instructions for starting different sensor scripts which were used for demonstration purposes.
+* Perhaps you find some useful information here. Just pick the good bits. Good luck! :)
 
 ## Used hardware and software
 
